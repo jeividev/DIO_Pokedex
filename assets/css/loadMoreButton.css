@@ -1,0 +1,23 @@
+.pagination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    background-color: #6c79db;
+    color: #fff;
+    padding: 0.3rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+
+    transform: 100ms transform;
+}
+
+.pagination button:hover,
+.pagination button:active {
+    transform: scale(1.1);
+}

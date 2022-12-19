@@ -4,6 +4,7 @@
     margin: 0;
     display: grid;
     grid-template-columns: 1fr;
+    align-self: center;
 }
 
 .pokemon {
@@ -16,7 +17,9 @@
     display: flex;
     flex-direction: column;
 
-    width: 173px;
+    width: 80vw;
+    min-width: 160px;
+    max-width: 200px;
 }
 
 .pokemon .number {
@@ -28,6 +31,7 @@
 
 .pokemon .name {
     color: #fff;
+    text-transform: capitalize;
     /* margin: .25rem 0; */
 }
 
@@ -45,16 +49,17 @@
 }
 
 .pokemon .detail .types .type {
-    background-color: #61e1ca;
     color: #fff;
     padding: 0.25rem 0.5rem;
     margin: 0.125rem 0;
     font-size: 0.625rem;
     border-radius: 1rem;
+    text-align: center;
+    filter: brightness(1.1);
 }
 
 .pokemon .detail img {
-    max-width: 100%;
+    max-width: 60%;
     height: 70px;
     align-self: flex-end;
 }

@@ -3,11 +3,18 @@
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
+
+    .pokemon{
+        width: calc(80vw / 2);
+    }
 }
 
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pokemon{
+        width: calc(80vw / 3);
     }
 }
 
@@ -20,5 +27,9 @@
 
     .content{
         height: auto;
+    }
+
+    .pokemon{
+        width: calc(80vw / 4);
     }
 }
