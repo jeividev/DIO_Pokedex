@@ -1,0 +1,141 @@
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.details__header {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-bottom: 0;
+
+    position: relative;
+
+    border-radius: 10px 10px 0 0 ;
+}
+
+.details__header__nav a {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.details__header__info {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 0px;
+    grid-template-areas:
+        "name id"
+        "abilities id";
+}
+
+.details__header__info_name {
+    grid-area: name;
+    text-transform: capitalize;
+}
+
+.details__header__info_abilities {
+    grid-area: abilities;
+}
+
+.details__header__info_abilitie {
+    color: #fff;
+    padding: 0.25rem 0.6rem;
+    margin: 0.125rem 0;
+    font-size: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    filter: brightness(1.1);
+    margin: 0 0.2rem 0;
+}
+
+.details__header__info_id {
+    grid-area: id;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details__header__info_img {
+    align-self: center;
+    margin: 2rem 0 0;
+    width: 50vw;
+    max-height: 250px;
+
+    z-index: 100;
+}
+
+.details__header__info_footer {
+    background: #fff;
+    width: 100vw;
+    height: 2rem;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 20px 20px 0 0;
+}
+
+#tabsDetailsPokemon {
+    border: none;
+    border-radius: 0 0 30px 30px;
+}
+
+#tabsDetailsPokemon section {
+    padding: 0;
+
+    line-height: 30px;
+}
+
+#tabsDetailsPokemon .ui-tabs-active{
+    height: 100%;
+    padding: 0 10px 20px 0;
+    border-bottom: rgb(116, 124, 165) 3px solid;
+}
+
+#tabsDetailsPokemon .ui-tabs-active h3{
+    color: #000;
+}
+
+#tabsDetailsPokemon ul {
+    background: #fff;
+    border: none;
+    padding: 0;
+}
+
+#tabsDetailsPokemon > ul li {
+    border: none;
+    list-style: none;
+    background: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#tabsDetailsPokemon ul li a h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgb(219, 221, 223);
+    font-size: 1.1rem;
+}
+
+.details__pokemon__details_item {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-areas: "label texto";
+}
+
+.details__pokemon__details_item-Label {
+    grid-area: label;
+    font-weight: 400;
+    color: #a8aaab;
+
+}
+.details__pokemon__details_item-Info {
+    grid-area: texto;
+    font-weight: 400;
+}

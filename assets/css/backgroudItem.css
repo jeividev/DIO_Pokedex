@@ -1,71 +1,71 @@
 .normal {
-    background-color: #a6a877;
+    background: linear-gradient(to bottom, #a6a877 99.8%, #fff 0.2%);
 }
 
 .grass {
-    background-color: #77c850;
+    background: linear-gradient(to bottom, #43c9a8 99.8%, #fff 0.2%);
 }
 
 .fire {
-    background-color: #ee7f30;
+    background: linear-gradient(to bottom, #fa6264 99.8%, #fff 0.2%);
 }
 
 .water {
-    background-color: #678fee;
+    background: linear-gradient(to bottom, #6cb5fa 99.8%, #fff 0.2%);
 }
 
 .electric {
-    background-color: #f7cf2e;
+    background: linear-gradient(to bottom, #ffd26d 99.8%, #fff 0.2%);
 }
 
 .ice {
-    background-color: #98d5d7;
+    background: linear-gradient(to bottom, #98d5d7 99.8%, #fff 0.2%);
 }
 
 .ground {
-    background-color: #dfbf69;
+    background: linear-gradient(to bottom, #dfbf69 99.8%, #fff 0.2%);
 }
 
 .flying {
-    background-color: #a98ff0;
+    background: linear-gradient(to bottom, #a98ff0 99.8%, #fff 0.2%);
 }
 
 .poison {
-    background-color: #a040a0;
+    background: linear-gradient(to bottom, #a040a0 99.8%, #fff 0.2%);
 }
 
 .fighting {
-    background-color: #bf3029;
+    background: linear-gradient(to bottom, #bf3029 99.8%, #fff 0.2%);
 }
 
 .psychic {
-    background-color: #f65687;
+    background: linear-gradient(to bottom, #f65687 99.8%, #fff 0.2%);
 }
 
 .dark {
-    background-color: #725847;
+    background: linear-gradient(to bottom, #725847 99.8%, #fff 0.2%);
 }
 
 .rock {
-    background-color: #b8a137;
+    background: linear-gradient(to bottom, #b8a137 99.8%, #fff 0.2%);
 }
 
 .bug {
-    background-color: #a8b720;
+    background: linear-gradient(to bottom, #a8b720 99.8%, #fff 0.2%);
 }
 
 .ghost {
-    background-color: #6e5896;
+    background: linear-gradient(to bottom, #6e5896 99.8%, #fff 0.2%);
 }
 
 .steel {
-    background-color: #b9b7cf;
+    background: linear-gradient(to bottom, #b9b7cf 99.8%, #fff 0.2%);
 }
 
 .dragon {
-    background-color: #6f38f6;
+    background: linear-gradient(to bottom, #6f38f6 99.8%, #fff 0.2%);
 }
 
 .fairy {
-    background-color: #f9aec7;
+    background: linear-gradient(to bottom, #f9aec7 99.8%, #fff 0.2%);
 }

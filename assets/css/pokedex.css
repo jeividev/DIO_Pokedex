@@ -7,6 +7,10 @@
     align-self: center;
 }
 
+.pokemonDetails {
+    text-decoration: none;
+}
+
 .pokemon {
     margin: 0.5rem;
     padding: 1rem;
